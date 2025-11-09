@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://yoloinfinity55.github.io/hugo-mac/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'mytheme'
@@ -17,4 +17,3 @@ theme = 'mytheme'
     disableWatch = true
     source = 'hugo_stats.json'
     target = 'assets/notwatching/hugo_stats.json'
-
