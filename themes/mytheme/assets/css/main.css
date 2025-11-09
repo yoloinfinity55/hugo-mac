@@ -7,17 +7,12 @@
   --color-white: #ffffff;
   --color-black: #000000;
 
-  --color-primary-light: #3b82f6;
-  --color-secondary-light: #6b7280;
-  --color-accent-light: #ec4899;
-  --color-text-light: #1f2937;
+  --color-primary-light: #2563eb;
+  --color-secondary-light: #64748b;
+  --color-accent-light: #db2777;
+  --color-text-light: #0f172a;
   --color-background-light: #ffffff;
-
-  --color-primary-dark: #60a5fa;
-  --color-secondary-dark: #d1d5db;
-  --color-accent-dark: #f9a8d4;
-  --color-text-dark: #ffffff;
-  --color-background-dark: #111827;
+  --color-border-light: #e5e7eb;
 
   --breakpoint-sm: 640px;
   --breakpoint-md: 768px;
@@ -34,14 +29,7 @@
     --primary: var(--color-primary-light);
     --secondary: var(--color-secondary-light);
     --accent: var(--color-accent-light);
-  }
-
-  .dark {
-    --background: var(--color-background-dark);
-    --text: var(--color-text-dark);
-    --primary: var(--color-primary-dark);
-    --secondary: var(--color-secondary-dark);
-    --accent: var(--color-accent-dark);
+    --border: var(--color-border-light);
   }
 
   body {
@@ -105,20 +93,12 @@
   border-radius: 0.25em;
   font-size: 0.9em;
 }
-.dark .prose code {
-  background-color: #374151;
-  color: #e5e7eb;
-}
 
 .prose pre {
-  background-color: #f3f4f6;
   padding: 1.5em;
   border-radius: 0.5em;
   overflow-x: auto;
   margin: 2em 0;
-}
-.dark .prose pre {
-  background-color: #111827;
 }
 
 .prose pre code {
@@ -127,7 +107,7 @@
 }
 
 .prose blockquote {
-  border-left: 4px solid var(--accent);
+  border-left: 4px solid var(--border);
   padding-left: 1.5em;
   margin: 2em 0;
   color: var(--secondary);
