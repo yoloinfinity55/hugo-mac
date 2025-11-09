@@ -1,6 +1,6 @@
 baseURL = 'https://yoloinfinity55.github.io/hugo-mac/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Hugo-Mac'
 theme = 'mytheme'
 
 [build]
