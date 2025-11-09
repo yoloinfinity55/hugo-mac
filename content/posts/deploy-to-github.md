@@ -1,6 +1,6 @@
 +++
 date = '2025-11-08T21:46:01-05:00'
-draft = true
+draft = false
 title = 'Deploy to Github'
 +++
 
