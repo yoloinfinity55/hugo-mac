@@ -14,10 +14,10 @@
   --color-background-light: #ffffff;
 
   --color-primary-dark: #60a5fa;
-  --color-secondary-dark: #9ca3af;
+  --color-secondary-dark: #d1d5db;
   --color-accent-dark: #f9a8d4;
-  --color-text-dark: #f9fafb;
-  --color-background-dark: #1f2937;
+  --color-text-dark: #ffffff;
+  --color-background-dark: #111827;
 
   --breakpoint-sm: 640px;
   --breakpoint-md: 768px;
@@ -63,7 +63,7 @@
 
 /* Custom prose styles for content */
 .prose {
-  color: var(--secondary);
+  color: var(--text);
   max-width: 80ch;
   margin: 0 auto;
 }
